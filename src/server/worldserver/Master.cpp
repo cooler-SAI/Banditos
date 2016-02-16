@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013-2015 DeathCore <http://www.noffearrdeathproject.net/>
+ * Copyright (C) 2013-2015 BanditosCore <http://www.google.de/>
  * Copyright (C) 2005-2009 MaNGOS <http://getmangos.com/>
  *
  * This program is free software; you can redistribute it and/or modify it
@@ -128,20 +128,17 @@ int Master::Run()
     sLog->outInfo(LOG_FILTER_WORLDSERVER, " ");
     sLog->outInfo(LOG_FILTER_WORLDSERVER, " ");
     sLog->outInfo(LOG_FILTER_WORLDSERVER, "<Ctrl-C> to stop.\n");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "██████╗ ███████╗ █████╗ ████████╗██╗  ██╗");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██║  ██║");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "██║  ██║█████╗  ███████║   ██║   ███████║");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "██║  ██║██╔══╝  ██╔══██║   ██║   ██╔══██║");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "██████╔╝███████╗██║  ██║   ██║   ██║  ██║");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "╚═════╝ ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "		  ██████╗ ██████╗ ██████╗ ███████╗");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "		 ██╔════╝██╔═══██╗██╔══██╗██╔════╝");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "		 ██║     ██║   ██║██████╔╝█████╗");  
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "		 ██║     ██║   ██║██╔══██╗██╔══╝");  
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "		   ╚██████╗╚██████╔╝██║  ██║███████╗");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "  	            ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "  Noffearr Death ProjecT 2015(c) Open-Sourced Game Emulation ");
-	sLog->outInfo(LOG_FILTER_WORLDSERVER, "            http://www.noffearrdeathproject.net \n");
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, "▀█████████▄     ▄████████ ███▄▄▄▄   ████████▄   ▄█      ███      ▄██████▄     ▄████████ ");
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, "  ███    ███   ███    ███ ███▀▀▀██▄ ███   ▀███ ███  ▀█████████▄ ███    ███   ███    ███ ");
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, "  ███    ███   ███    ███ ███   ███ ███    ███ ███▌    ▀███▀▀██ ███    ███   ███    █▀  ");
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, " ▄███▄▄▄██▀    ███    ███ ███   ███ ███    ███ ███▌     ███   ▀ ███    ███   ███        ");
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, "▀▀███▀▀▀██▄  ▀███████████ ███   ███ ███    ███ ███▌     ███     ███    ███ ▀███████████ ");
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, "  ███    ██▄   ███    ███ ███   ███ ███    ███ ███      ███     ███    ███          ███ ");
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, "  ███    ███   ███    ███ ███   ███ ███   ▄███ ███      ███     ███    ███    ▄█    ███ ");
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, "▄█████████▀    ███    █▀   ▀█   █▀  ████████▀  █▀      ▄████▀    ▀██████▀   ▄████████▀  ");
+
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, " Banditos Core 2016(c) Open-Sourced Game Emulation ");
+	sLog->outInfo(LOG_FILTER_WORLDSERVER, "            http://www.google.de \n");
 
     /// worldserver PID file creation
     std::string pidfile = ConfigMgr::GetStringDefault("PidFile", "");

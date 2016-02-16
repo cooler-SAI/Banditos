@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2013-2015 DeathCore <http://www.noffearrdeathproject.net/>
+ * Copyright (C) 2013-2015 BanditosCore <http://www.google.de/>
  * Copyright (C) 2005-2009 MaNGOS <http://getmangos.com/>
  *
  * This program is free software; you can redistribute it and/or modify it
@@ -107,20 +107,18 @@ extern int main(int argc, char **argv)
     sLog->outInfo(LOG_FILTER_AUTHSERVER, " ");
     sLog->outInfo(LOG_FILTER_AUTHSERVER, " ");
     sLog->outInfo(LOG_FILTER_AUTHSERVER, "<Ctrl-C> to stop.\n");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "██████╗ ███████╗ █████╗ ████████╗██╗  ██╗");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "██╔══██╗██╔════╝██╔══██╗╚══██╔══╝██║  ██║");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "██║  ██║█████╗  ███████║   ██║   ███████║");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "██║  ██║██╔══╝  ██╔══██║   ██║   ██╔══██║");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "██████╔╝███████╗██║  ██║   ██║   ██║  ██║");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "╚═════╝ ╚══════╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "		  ██████╗ ██████╗ ██████╗ ███████╗");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "		 ██╔════╝██╔═══██╗██╔══██╗██╔════╝");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "		 ██║     ██║   ██║██████╔╝█████╗");  
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "		 ██║     ██║   ██║██╔══██╗██╔══╝");  
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "		   ╚██████╗╚██████╔╝██║  ██║███████╗");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "  	            ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "  Noffearr Death ProjecT 2015(c) Open-Sourced Game Emulation ");
-	sLog->outInfo(LOG_FILTER_AUTHSERVER, "            http://www.noffearrdeathproject.net \n");
+	sLog->outInfo(LOG_FILTER_AUTHSERVER, "▀█████████▄     ▄████████ ███▄▄▄▄   ████████▄   ▄█      ███      ▄██████▄     ▄████████ ");
+	sLog->outInfo(LOG_FILTER_AUTHSERVER, "  ███    ███   ███    ███ ███▀▀▀██▄ ███   ▀███ ███  ▀█████████▄ ███    ███   ███    ███ ");
+	sLog->outInfo(LOG_FILTER_AUTHSERVER, "  ███    ███   ███    ███ ███   ███ ███    ███ ███▌    ▀███▀▀██ ███    ███   ███    █▀  ");
+	sLog->outInfo(LOG_FILTER_AUTHSERVER, " ▄███▄▄▄██▀    ███    ███ ███   ███ ███    ███ ███▌     ███   ▀ ███    ███   ███        ");
+	sLog->outInfo(LOG_FILTER_AUTHSERVER, "▀▀███▀▀▀██▄  ▀███████████ ███   ███ ███    ███ ███▌     ███     ███    ███ ▀███████████ ");
+	sLog->outInfo(LOG_FILTER_AUTHSERVER, "  ███    ██▄   ███    ███ ███   ███ ███    ███ ███      ███     ███    ███          ███ ");
+	sLog->outInfo(LOG_FILTER_AUTHSERVER, "  ███    ███   ███    ███ ███   ███ ███   ▄███ ███      ███     ███    ███    ▄█    ███ ");
+	sLog->outInfo(LOG_FILTER_AUTHSERVER, "▄█████████▀    ███    █▀   ▀█   █▀  ████████▀  █▀      ▄████▀    ▀██████▀   ▄████████▀  ");
+                                                                                        
+	
+	sLog->outInfo(LOG_FILTER_AUTHSERVER, "  Banditos 2016(c) Open-Sourced Game Emulation ");
+	sLog->outInfo(LOG_FILTER_AUTHSERVER, "            http://www.google.de \n");
 
     sLog->outWarn(LOG_FILTER_AUTHSERVER, "%s (Library: %s)", OPENSSL_VERSION_TEXT, SSLeay_version(SSLEAY_VERSION));
 
