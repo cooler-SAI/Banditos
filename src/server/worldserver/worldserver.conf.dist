@@ -1,5 +1,5 @@
 #############################################
-# DeathCore World Server configuration file #
+# Banditos World Server configuration file #
 #############################################
 [worldserver]
 
@@ -28,7 +28,7 @@
 #    CUSTOM SERVER OPTIONS
 #    LOGGING SYSTEM SETTINGS
 #    CURRENCIES SETTINGS
-#    CUSTOM CONTENT DEATHCORE SETTINGS
+#    CUSTOM CONTENT Banditos SETTINGS
 #
 ###################################################################################################
 
@@ -80,19 +80,19 @@ LogsDir = "Logs/Server"
 #    WorldDatabaseInfo
 #    CharacterDatabaseInfo
 #        Description: Database connection settings for the world server.
-#        Example:     "hostname;port;deathcore;deathcore;database"
-#                     ".;somenumber;deathcore;deathcore;database" - (Use named pipes on Windows
+#        Example:     "hostname;port;Banditos;Banditos;database"
+#                     ".;somenumber;Banditos;Banditos;database" - (Use named pipes on Windows
 #                                                                 "enable-named-pipe" to [mysqld]
 #                                                                 section my.ini)
-#                     ".;/path/to/unix_socket;deathcore;deathcore;database" - (use Unix sockets on
+#                     ".;/path/to/unix_socket;Banditos;Banditos;database" - (use Unix sockets on
 #                                                                           Unix/Linux)
-#        Default:     "127.0.0.1;3306;deathcore;deathcore;auth"       - (LoginDatabaseInfo)
-#                     "127.0.0.1;3306;deathcore;deathcore;world"      - (WorldDatabaseInfo)
-#                     "127.0.0.1;3306;deathcore;deathcore;characters" - (CharacterDatabaseInfo)
+#        Default:     "127.0.0.1;3306;Banditos;Banditos;auth"       - (LoginDatabaseInfo)
+#                     "127.0.0.1;3306;Banditos;Banditos;world"      - (WorldDatabaseInfo)
+#                     "127.0.0.1;3306;Banditos;Banditos;characters" - (CharacterDatabaseInfo)
 
-LoginDatabaseInfo     = "127.0.0.1;3306;deathcore;deathcore;auth"
-WorldDatabaseInfo     = "127.0.0.1;3306;deathcore;deathcore;world"
-CharacterDatabaseInfo = "127.0.0.1;3306;deathcore;deathcore;characters"
+LoginDatabaseInfo     = "127.0.0.1;3306;Banditos;Banditos;auth"
+WorldDatabaseInfo     = "127.0.0.1;3306;Banditos;Banditos;world"
+CharacterDatabaseInfo = "127.0.0.1;3306;Banditos;Banditos;characters"
 
 #
 #    LoginDatabase.WorkerThreads
@@ -1063,10 +1063,10 @@ BeepAtStart = 1
 #    Motd
 #        Description: Message of the Day, displayed at login.
 #                     Use '@' for a newline and be sure to escape special characters.
-#        Example:     "Welcome to John\'s Server@This server runs on DeathCore."
-#        Default:     "Welcome to a DeathCore server."
+#        Example:     "Welcome to John\'s Server@This server runs on Banditos."
+#        Default:     "Welcome to a Banditos server."
 
-Motd = "Welcome to a DeathCore Open-Sourced Game Emulation."
+Motd = "Willkommen auf dem Banditos ihr Lappen."
 
 #
 #    Server.LoginInfo
@@ -3079,7 +3079,7 @@ Currency.ConquestPointsArenaReward = 180
 
 #
 ###################################################################################################
-#                           CUSTOM CONTENT DEATHCORE SETTINGS                                     #
+#                           CUSTOM CONTENT Banditos SETTINGS                                     #
 #                                                                                                 #
 ###################################################################################################
 # ALLOW ZONE AND AREA VALUES CORRECTION AT STARTUP FOR GAMEOBJECT AND CREATURE TABLES

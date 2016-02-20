@@ -1,5 +1,5 @@
 ############################################
-# DeathCore Auth Server configuration file #
+# Banditos Auth Server configuration file #
 ############################################
 [authserver]
 
@@ -126,15 +126,15 @@ WrongPass.BanType = 0
 #
 #    LoginDatabaseInfo
 #        Description: Database connection settings for the realm server.
-#        Example:     "hostname;port;deathcore;deathcore;database"
-#                     ".;somenumber;deathcore;deathcore;database" - (Use named pipes on Windows
+#        Example:     "hostname;port;Banditos;Banditos;database"
+#                     ".;somenumber;Banditos;Banditos;database" - (Use named pipes on Windows
 #                                                                 "enable-named-pipe" to [mysqld]
 #                                                                 section my.ini)
-#                     ".;/path/to/unix_socket;deathcore;deathcore;database" - (use Unix sockets on
+#                     ".;/path/to/unix_socket;Banditos;Banditos;database" - (use Unix sockets on
 #                                                                           Unix/Linux)
-#        Default:     "127.0.0.1;3306;deathcore;deathcore;auth"
+#        Default:     "127.0.0.1;3306;Banditos;Banditos;auth"
 
-LoginDatabaseInfo = "127.0.0.1;3306;deathcore;deathcore;auth"
+LoginDatabaseInfo = "127.0.0.1;3306;Banditos;Banditos;auth"
 
 #
 #    LoginDatabase.WorkerThreads
